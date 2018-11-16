@@ -1,0 +1,23 @@
+h1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+ }
+ 
+.card {
+    width: 700px;
+    height: 150px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.card-block {
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+.jumbotron {
+     padding: 1rem;
+}
+
