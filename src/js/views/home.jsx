@@ -23,7 +23,7 @@ export class Home extends React.Component {
 			<div>
 				<div className="jumbotron jumbotron-fluid sticky-top bg-dark text-white">
 					<div className="container text-center sticky">
-						<h1>The MeetUp Clone</h1>
+						<h1>MAIN PAGE HOME</h1>
 						<p>Mini project for 4geeks Academy class.</p>
 						<p>Using: Bootstrap, React and React-router</p>
 					</div>

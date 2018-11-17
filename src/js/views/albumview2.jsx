@@ -6,7 +6,7 @@ import { Context } from "../store/appContext.jsx";
 
 import "../../styles/event.css";
 
-export class Meetup extends React.Component {
+export class Albumview2 extends React.Component {
 	render() {
 		let parseMoment = (data, format) => {
 			if (format == "date") {
@@ -28,7 +28,7 @@ export class Meetup extends React.Component {
 							<img src="https://consciousdiscipline.com/wp-content/uploads/2017/05/600x350.png" />
 						</div>
 						<div className="col-md-8 text-center">
-							<h1>MEETUP PAGE</h1>
+							<h1>ALBUMVIEW 2</h1>
 							<p>Mini project for 4geeks Academy class.</p>
 							<p>Using: Bootstrap, React and React-router</p>
 							<div className="container text-center sticky" />

@@ -12,10 +12,10 @@ export function EventCards(props) {
 				<div className="row">
 					<div className="col-md-4">{props.eventTime}</div>
 					<div className="col-md-8">
-						<Link to="/event">
+						<Link to="/albumview1">
 							<h5 className="card-title">{props.eventTitle}</h5>
 						</Link>
-						<Link to="/meetup">
+						<Link to="/albumview2">
 							<p className="card-text">{props.meetup}</p>
 						</Link>
 					</div>

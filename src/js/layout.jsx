@@ -4,8 +4,8 @@ import ScrollToTop from "./component/functional/scrollToTop.jsx";
 
 import { Home } from "./views/home.jsx";
 import { About } from "./views/about.jsx";
-import { Event } from "./views/event.jsx";
-import { Meetup } from "./views/meetup.jsx";
+import { Albumview1 } from "./views/albumview1.jsx";
+import { Albumview2 } from "./views/albumview2.jsx";
 // import { Demo } from "./views/demo.jsx";
 import { Single } from "./views/single.jsx";
 import Store from "./store/appContext.jsx";
@@ -23,8 +23,8 @@ export class Layout extends React.Component {
 					<Switch>
 						<Route exact path="/" component={Home} />
 						<Route path="/about" component={About} />
-						<Route path="/event" component={Event} />
-						<Route path="/meetup" component={Meetup} />
+						<Route path="/albumview1" component={Albumview1} />
+						<Route path="/albumview2" component={Albumview2} />
 						<Route path="/single/:theid" component={Single} />
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
