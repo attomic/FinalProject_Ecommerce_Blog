@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Context } from "../store/appContext.jsx";
 import { EventCards } from "../component/eventcards.jsx";
 import Moment from "react-moment";
+import banner from "../../img/banner.png";
 
 import "../../styles/home.css";
 
@@ -21,13 +22,10 @@ export class Home extends React.Component {
 
 		return (
 			<div>
-				<div className="jumbotron jumbotron-fluid sticky-top bg-dark text-white">
-					<div className="container text-center sticky">
-						<h1>MAIN PAGE HOME</h1>
-						<p>Mini project for 4geeks Academy class.</p>
-						<p>Using: Bootstrap, React and React-router</p>
-					</div>
-				</div>
+				<img
+					className="banner img-fluid w-100 h-20 ml-0"
+					src={banner}
+				/>
 				<Context.Consumer>
 					{({ store }) => {
 						return store.events.map(event => {

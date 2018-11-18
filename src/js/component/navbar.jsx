@@ -8,7 +8,7 @@ export class Navbar extends React.Component {
 			<header>
 				<div>
 					<nav>
-						<ul>
+						<ul className="mb-0">
 							<li>
 								<NavLink to="/">Home</NavLink>
 							</li>
@@ -21,7 +21,7 @@ export class Navbar extends React.Component {
 							<li className="ml-auto">
 								<button
 									type="button"
-									className="btn btn-primary"
+									className="btn btn-warning"
 									data-toggle="modal"
 									data-target=".bd-example-modal-sm">
 									Login
