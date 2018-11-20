@@ -1,9 +1,9 @@
 const getState = scope => {
 	return {
 		store: {
-			events: [],
-			meetups: [],
-			session: {}
+			albums: []
+			// meetups: [],
+			// session: {}
 		},
 		actions: {
 			changeColor: (element, color) => {

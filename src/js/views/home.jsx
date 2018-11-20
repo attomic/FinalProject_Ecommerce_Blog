@@ -9,16 +9,16 @@ import "../../styles/home.css";
 
 export class Home extends React.Component {
 	render() {
-		let parseMoment = (data, format) => {
-			if (format == "date") {
-				return <Moment format="MM/DD/YYYY">{data}</Moment>;
-			}
-			if (format == "time") {
-				let timeArr = data.split(":");
-				let theTime = String(timeArr[0]) + ":" + String(timeArr[1]);
-				return theTime;
-			}
-		};
+		// let parseMoment = (data, format) => {
+		// 	if (format == "date") {
+		// 		return <Moment format="MM/DD/YYYY">{data}</Moment>;
+		// 	}
+		// 	if (format == "time") {
+		// 		let timeArr = data.split(":");
+		// 		let theTime = String(timeArr[0]) + ":" + String(timeArr[1]);
+		// 		return theTime;
+		// 	}
+		// };
 
 		return (
 			<div>
@@ -28,21 +28,25 @@ export class Home extends React.Component {
 				/>
 				<Context.Consumer>
 					{({ store }) => {
-						return store.events.map(event => {
-							if (event) {
+						return store.albums.map(album => {
+							if (album) {
 								return (
 									<EventCards
-										eventDate={parseMoment(
-											event.meta_keys.day,
-											"date"
-										)}
-										eventTime={parseMoment(
-											event.meta_keys.time,
-											"time"
-										)}
-										eventTitle={event.post_title}
-										meetup={event.meta_keys._meetup}
-										key={event.ID}
+										// eventDate={parseMoment(
+										// 	event.meta_keys.day,
+										// 	"date"
+										// )}
+										// eventTime={parseMoment(
+										// 	event.meta_keys.time,
+										// 	"time"
+										// )}
+										albumTitle={album.post_title}
+										// albumContent={album.post_content}
+										albumDesc={
+											album.meta_keys.description[0]
+										}
+										albumImage={album.image}
+										key={album.ID}
 									/>
 								);
 							} else {

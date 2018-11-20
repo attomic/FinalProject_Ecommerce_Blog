@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import "../../styles/event.css";
+import "../../styles/albumview1.css";
 import { EventCards } from "../component/eventcards.jsx";
 
 export class Albumview1 extends React.Component {

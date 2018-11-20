@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Context } from "../store/appContext.jsx";
 import { EventCards } from "../component/eventcards.jsx";
 import Moment from "react-moment";
-import { Context } from "../store/appContext.jsx";
+import banner from "../../img/banner.png";
 
-import "../../styles/albumview2.css";
+import "../../styles/home.css";
 
-export class Albumview2 extends React.Component {
+export class Home extends React.Component {
 	render() {
 		let parseMoment = (data, format) => {
 			if (format == "date") {
@@ -21,20 +22,10 @@ export class Albumview2 extends React.Component {
 
 		return (
 			<div>
-				<div className="sticky-top jumbotron jumbotron-fluid bg-dark text-white">
-					<div className="row">
-						<div className="col-md-4">
-							{" "}
-							<img src="https://consciousdiscipline.com/wp-content/uploads/2017/05/600x350.png" />
-						</div>
-						<div className="col-md-8 text-center">
-							<h1>ALBUMVIEW 2</h1>
-							<p>Mini project for 4geeks Academy class.</p>
-							<p>Using: Bootstrap, React and React-router</p>
-							<div className="container text-center sticky" />
-						</div>
-					</div>
-				</div>
+				<img
+					className="banner img-fluid w-100 h-20 ml-0"
+					src={banner}
+				/>
 				<Context.Consumer>
 					{({ store }) => {
 						return store.events.map(event => {
