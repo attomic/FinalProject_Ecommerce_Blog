@@ -18,6 +18,16 @@ export class Navbar extends React.Component {
 							<li>
 								<NavLink to="/contact">Contact</NavLink>
 							</li>
+							<li>
+								<NavLink to="/albumview1">
+									Led Zeppelin II
+								</NavLink>
+							</li>
+							<li>
+								<NavLink to="/albumview2">
+									Led Zeppelin IV
+								</NavLink>
+							</li>
 							<li className="ml-auto">
 								<button
 									type="button"
