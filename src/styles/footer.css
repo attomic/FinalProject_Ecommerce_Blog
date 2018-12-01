@@ -2,6 +2,7 @@ img {
    text-align: center;
 }
 
-/*footer {*/
-/*    position: fixed;*/
-/*}*/
+.page-footer {
+    position: fixed;
+    background-color: #23343B;
+}

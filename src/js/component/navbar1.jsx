@@ -2,13 +2,13 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "../../styles/app.css";
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from "mdbreact";
-// import SideNav, {
-// 	Toggle,
-// 	Nav,
-// 	NavItem,
-// 	NavIcon,
-// 	NavText
-// } from "@trendmicro/react-sidenav";
+import SideNav, {
+	Toggle,
+	Nav,
+	NavItem,
+	NavIcon,
+	NavText
+} from "@trendmicro/react-sidenav";
 
 import "../../styles/topnav-centered.css";
 import logo from "../../img/logo.png";
@@ -17,11 +17,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export class Navbar extends React.Component {
 	render() {
 		return (
-			<div id="wrapper bg-dark ">
+			<div id="wrapper">
 				<div className="row">
 					<div className="col-4">
-						<div className="sidebar-wrapper bg-dark">
-							<ul className="sidebar-nav pt-5 ">
+						<div className="sidebar-wrapper">
+							<img
+								className="logo img-fluid w-50 h-20 pl-2"
+								src={logo}
+							/>
+
+							<ul className="sidebar-nav pt-5">
 								<div className="clearfix">
 									<li className="nav-item">
 										<NavLink className="nav-link" to="/">
@@ -30,6 +35,12 @@ export class Navbar extends React.Component {
 												aria-hidden="true"
 											/>
 											Home
+											<span className="float-right">
+												<i
+													className="fa fa-chevron-right"
+													aria-hidden="true"
+												/>
+											</span>
 										</NavLink>
 									</li>
 
@@ -43,6 +54,12 @@ export class Navbar extends React.Component {
 													aria-hidden="true"
 												/>
 												About
+												<span className="float-right">
+													<i
+														className="fa fa-chevron-right"
+														aria-hidden="true"
+													/>
+												</span>
 											</NavLink>
 										</div>
 									</li>
@@ -56,41 +73,45 @@ export class Navbar extends React.Component {
 												aria-hidden="true"
 											/>
 											Contact
+											<span className="float-right">
+												<i
+													className="fa fa-chevron-right"
+													aria-hidden="true"
+												/>
+											</span>
 										</NavLink>
 									</li>
 
 									<li className="nav-item">
-										<Dropdown>
-											<DropdownToggle nav caret>
+										<NavLink
+											className="nav-link"
+											to="/albumview1">
+											<span className="pl-4">
+												Led Zeppelin II
+											</span>
+											<span className="float-right">
 												<i
-													className="fa fa-music pr-2"
+													className="fa fa-chevron-right"
 													aria-hidden="true"
 												/>
-												Albums
-											</DropdownToggle>
-											<DropdownMenu
-												className="dropdown-default bg-dark"
-												center>
-												<DropdownItem className="nav-item ">
-													<NavLink
-														className="nav-link"
-														to="/albumview1">
-														<span className="pl-4">
-															Led Zeppelin II
-														</span>
-													</NavLink>
-												</DropdownItem>
-												<DropdownItem className="nav-item">
-													<NavLink
-														className="nav-link"
-														to="/albumview2">
-														<span className="pl-4">
-															Led Zeppelin IV
-														</span>
-													</NavLink>
-												</DropdownItem>
-											</DropdownMenu>
-										</Dropdown>
+											</span>
+										</NavLink>
+									</li>
+
+									<li className="nav-item">
+										<NavLink
+											className="nav-link"
+											to="/albumview2">
+											<span className="pl-4">
+												Led Zeppelin IV
+											</span>
+											<span className="float-right">
+												<i
+													className="fa fa-chevron-right"
+													aria-hidden="true"
+												/>
+											</span>
+										</NavLink>
 									</li>
 								</div>
 							</ul>

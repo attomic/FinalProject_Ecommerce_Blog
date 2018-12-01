@@ -3,20 +3,23 @@ import { Context } from "../store/appContext.jsx";
 import PropTypes from "prop-types";
 
 import { Link } from "react-router-dom";
-import "../../styles/eventcards.css";
 
 export function EventCards(props) {
 	return (
-		<div className="card">
-			<img className="card-img-top" src={props.albumImage} />
-			<div className="card-body">
-				<h4 className="card-title">{props.albumTitle}</h4>
-				<p className="card-text">{props.albumDesc}</p>
+		<div>
+		<div classNameName="card w-50">
+			<img classNameName="card-img-top img-fluid w-100" src={props.albumImage} />
+			<div classNameName="card-body">
+				<h4 classNameName="card-title">{props.albumTitle}</h4>
+				<p classNameName="card-text">{props.albumDesc}</p>
 				<Link to="/albumview1">
-					<button className="btn btn-dark">Buy Now! </button>
+					<button className="btn btn-secondary ">Buy Now! </button>
 				</Link>
 			</div>
 		</div>
+	
+        <br/>
+	</div>	
 	);
 }
 

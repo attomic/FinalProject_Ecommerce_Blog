@@ -12,7 +12,8 @@ import { Single } from "./views/single.jsx";
 import Store from "./store/appContext.jsx";
 
 import { Navbar } from "./component/navbar.jsx";
-// import { Footer } from "./component/footer.jsx";
+import { Banner } from "./component/banner.jsx";
+import { Footer } from "./component/footer.jsx";
 
 //create your first component
 export class Layout extends React.Component {
@@ -30,6 +31,7 @@ export class Layout extends React.Component {
 						<Route path="/single/:theid" component={Single} />
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
+					<Footer />
 				</ScrollToTop>
 			</BrowserRouter>
 		);

@@ -1,0 +1,192 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+body {
+  overflow-x: hidden;
+}
+
+.Web_title{
+  color:#9999;
+}
+
+.hr{
+  
+  color:#9999;
+}
+
+.login{
+  right: 0;
+}
+
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+  padding-left: 250px;
+}
+
+
+.sidebar-wrapper{
+  -index: -1;
+    width: 22vw; 
+    height: 100%;
+    position: fixed; /* or absolute? I don't know what will be better for you */
+    left: 0; /* stick to the right side */
+    background-color: #23343B;
+      -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/*.sidebar-wrapper {*/
+/*  z-index: 1000;*/
+/*  position: fixed;*/
+/*  left: 250px;*/
+/*  width: 0;*/
+/*  height: 100%;*/
+/*  margin-left: -250px;*/
+  /*background-color: #0000!important;*/
+/*  -webkit-transition: all 0.5s ease;*/
+/*  -moz-transition: all 0.5s ease;*/
+/*  -o-transition: all 0.5s ease;*/
+/*  transition: all 0.5s ease;*/
+/*}*/
+
+/*#wrapper.toggled #sidebar-wrapper {*/
+/*  width: 250px;*/
+/*}*/
+
+/*#page-content-wrapper {*/
+/*  width: 100%;*/
+/*  position: absolute;*/
+/*  padding: 15px;*/
+/*}*/
+
+/*#wrapper.toggled #page-content-wrapper {*/
+/*  position: absolute;*/
+/*  margin-right: -250px;*/
+/*}*/
+
+
+/* Sidebar Styles */
+
+.sidebar-nav li {
+    border-bottom: 1px solid #9999;
+    
+ 
+}
+
+.sidebar-nav li:first-child {
+  
+    border-top: 1px solid #9999;
+ 
+}
+
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #999999;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.dropdown-default:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.nav-item :hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/*.sidebar-nav>.sidebar-brand {*/
+/*  height: 65px;*/
+/*  font-size: 18px;*/
+/*  line-height: 60px;*/
+/*}*/
+
+/*.sidebar-nav>.sidebar-brand a {*/
+/*  color: #999999;*/
+/*}*/
+
+/*.sidebar-nav>.sidebar-brand a:hover {*/
+/*  color: #fff;*/
+/*  background: none;*/
+/*}*/
+
+@media(min-width:768px) {
+  #wrapper {
+    padding-left: 0;
+  }
+  #wrapper.toggled {
+    padding-left: 250px;
+  }
+  #sidebar-wrapper {
+    width: 0;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+  }
+  #page-content-wrapper {
+    padding: 20px;
+    position: relative;
+  }
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+  }
+}
+
+.logo{
+  position: relative;
+
+}
+
+
+
+
+ /*Add an active class to the active dropdown button */
+/*.active {*/
+/*  background-color:rgba(255, 255, 255, 0.2);*/
+  /*color: white;*/
+  
+/*}*/
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+/*.dropdown {*/
+  /*display: none;*/
+  /*background-color: green;*/
+/*  padding-left: 8px;*/
+/*}*/
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  
+  /*padding-right: 8px;*/
+}
