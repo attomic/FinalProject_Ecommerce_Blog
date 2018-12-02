@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { EventCards } from "../component/eventcards.jsx";
 import Moment from "react-moment";
 import { Context } from "../store/appContext.jsx";
+import PaypalButton from "../component/paypalButton.jsx";
 
 import "../../styles/albumview1.css";
 
@@ -36,6 +37,14 @@ export class Albumview1 extends React.Component {
 												}
 												albumImage={
 													store.albums[1].image
+												}
+												albumStock={
+													store.albums[1].meta_keys
+														.availability[0]
+												}
+												albumPrice={
+													store.albums[1].meta_keys
+														.price[0]
 												}
 												// key={store.album.ID}
 											/>

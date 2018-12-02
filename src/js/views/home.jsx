@@ -25,42 +25,78 @@ export class Home extends React.Component {
 			<div className="col-8 float-right">
 				<div id="page-content-wrapper">
 					<div className="container-fluid">
-						<h1>Led Zeppelin History – Aug 28</h1>
+						<h1>Led Zeppelin II</h1>
 						<p>
-							This week in 1973, Led Zeppelin manager Peter Grant
-							began enforcing a 90/10 concert gate proceeds split
-							in favor of the band (traditionally, gate revenues
-							had been split 50-50 between band and promoter). The
-							concert industry howled, but Grant informed them
-							that 10% of Led Zeppelin’s business was better than
-							50% of nothing. The concert promoters caved in, and
-							the other big bands of the day were quick to follow
-							suit.
+							Led Zeppelin II is the second album by the English
+							rock band Led Zeppelin, released on 22 October 1969
+							in the United States and on 31 October 1969 in the
+							United Kingdom by Atlantic Records. Recording
+							sessions for the album took place at several
+							locations in both the United Kingdom and North
+							America from January to August 1969. The album&#39;s
+							production was credited to the band&#39;s lead
+							guitarist and songwriter Jimmy Page, and it also
+							served as Led Zeppelin&#39;s first album to use
+							Eddie Kramer as engineer. Led Zeppelin II exhibited
+							the band&#39;s evolving musical style of
+							blues-derived material and their guitar iff-based
+							sound. It has been described as the band&#39;s
+							heaviest album.
 						</p>
 						<p>
-							Grant, a 6’-3” 320-pound ex-professional wrestler,
-							was the kind of manager every artist wants –
-							immensely loyal, undaunted in his efforts on behalf
-							of his clients, and fully prepared to eradicate
-							problems by whatever means necessary. He was known
-							as being one of the shrewdest and most ruthless
-							managers in rock history.
+							Led Zeppelin II was a commercial success, and was
+							the band&#39;s first album to reach number one on
+							charts in the UK and the US. In 1970, the
+							album&#39;s cover designer David Juniper was
+							nominated for a Grammy Award for Best Recording
+							Package. On 15 November 1999, the album was
+							certified 12× Platinum by the Recording Industry
+							Association of America (RIAA) for sales passing 12
+							million copies. Since its release, various writers
+							and music critics have regularly cited Led Zeppelin
+							II as one of the greatest and most influential
+							albums of all time.
+						</p>
+
+						<Link className="btn btn-secondary" to="/albumview1">
+							Album Tracklisting Here
+						</Link>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+
+						<h1>Led Zeppelin IV</h1>
+						<p>
+							The untitled fourth studio album by the English rock
+							band Led Zeppelin, commonly known as Led Zeppelin
+							IV, was released on 8 November 1971 by Atlantic
+							Records. It was produced by guitarist Jimmy Page and
+							recorded between December 1970 and February 1971,
+							mostly in the country house Headley Grange. The
+							album contains one of the band&#39;s best known
+							songs, &#39;Stairway to Heaven&#39;.
 						</p>
 						<p>
-							Unpopular as his strategies may have been with
-							booking agents and promoters, Grant was the
-							prin­cipal architect of the shift in power from
-							businessmen to artists during the 70s. His tactics
-							are widely credited today with improving pay and
-							conditions for musicians in dealings with concert
-							promoters.
+							The informal setting at Headley Grange inspired the
+							band, and allowed them to try different arrangements
+							of material and create songs in a variety of styles.
+							After the band&#39;s previous album Led Zeppelin III
+							received lukewam reviews from critics, they decided
+							their fourth album would officially be untitled, and
+							would be represented instead by four symbols chosen
+							by each band member, without featuring the name or
+							any other details on the cover.
 						</p>
-						<a
-							href="#menu-toggle"
-							className="btn btn-secondary"
-							id="menu-toggle">
-							{"Read more>>"}
-						</a>
+						<p>
+							The album was a commercial and critical success and
+							is Led Zeppelin&#39;s best-selling, shipping over 37
+							million copies worldwide. It is one of the
+							best-selling albums in the US, while critics have
+							regularly placed it on lists of the greatest albums
+							of all time.
+						</p>
+						<Link className="btn btn-secondary" to="/albumview2">
+							Album Tracklisting Here
+						</Link>
 					</div>
 				</div>
 			</div>

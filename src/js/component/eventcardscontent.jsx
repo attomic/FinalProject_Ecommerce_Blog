@@ -12,7 +12,8 @@ export function EventCards(props) {
 			<div classNameName="card-body">
 				<h4 classNameName="card-title">{props.albumTitle}</h4>
 				<p classNameName="card-text">{props.albumDesc}</p>
-				<Link to="/albumview1">
+				<p classNameName="card-text">{props.albumStock}</p>
+				<p classNameName="card-text">{props.albumPrice}</p> <Link to="/albumview1">
 					<button className="btn btn-secondary ">Buy Now! </button>
 				</Link>
 			</div>
@@ -27,6 +28,8 @@ EventCards.propTypes = {
 	eventDate: PropTypes.object,
 	eventTime: PropTypes.string,
 	albumTitle: PropTypes.string,
+	albumPrice: PropTypes.string,
+	albumStock: PropTypes.string,
 	albumDesc: PropTypes.string,
 	albumImage: PropTypes.string,
 	meetup: PropTypes.string
