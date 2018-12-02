@@ -25,7 +25,10 @@ export class Home extends React.Component {
 			<div className="col-8 float-right">
 				<div id="page-content-wrapper">
 					<div className="container-fluid">
-						<h1>Led Zeppelin II</h1>
+						<h1>
+							Most Influential Led Zeppelin Albums Of All Time
+						</h1>
+						<h2>Led Zeppelin II</h2>
 						<p>
 							Led Zeppelin II is the second album by the English
 							rock band Led Zeppelin, released on 22 October 1969
@@ -62,9 +65,8 @@ export class Home extends React.Component {
 							Album Tracklisting Here
 						</Link>
 						<p>&nbsp;</p>
-						<p>&nbsp;</p>
 
-						<h1>Led Zeppelin IV</h1>
+						<h2>Led Zeppelin IV</h2>
 						<p>
 							The untitled fourth studio album by the English rock
 							band Led Zeppelin, commonly known as Led Zeppelin
