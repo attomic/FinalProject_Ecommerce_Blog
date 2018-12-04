@@ -63,55 +63,109 @@ export class Albumview1 extends React.Component {
 										</tr>
 									</thead>
 									<tbody>
-										<tr>
+										<tr
+											onClick={() =>
+												window.open(
+													"https://youtu.be/HQmmM_qwG4k"
+												)
+											}>
 											<th scope="row">1</th>
 											<td>Whole Lotta Love</td>
-											<td>John Bonham Willie Dixon</td>
-											<td>5:38</td>
+											<td>
+												John Bonham / Willie Dixon /
+												John Paul Jones / Jimmy Page /
+												Robert Plant
+											</td>
+											<td>5:35</td>
 										</tr>
-										<tr>
+
+										<tr
+											onClick={() =>
+												window.open(
+													"https://youtu.be/WnMiXsRtsfc"
+												)
+											}>
 											<th scope="row">2</th>
 											<td>
 												What Is and What Should Never Be
 											</td>
-											<td>PagePlant</td>
-											<td>4:33</td>
+											<td>Jimmy Page / Robert Plant</td>
+											<td>4:45</td>
 										</tr>
-										<tr>
+										<tr
+											onClick={() =>
+												window.open(
+													"https://youtu.be/je4jmKLTC48"
+												)
+											}>
 											<th scope="row">3</th>
 											<td>Thank You</td>
-											<td>PagePlant</td>
-											<td>4:21</td>
+											<td>Jimmy Page / Robert Plant</td>
+											<td>4:49</td>
 										</tr>
-										<tr>
+										<tr
+											onClick={() =>
+												window.open(
+													"https://youtu.be/0hdQi2_HzAc"
+												)
+											}>
 											<th scope="row">4</th>
 											<td>Heartbreaker</td>
-											<td>Bonham Jones Page Plant</td>
-											<td>4:21</td>
+											<td>
+												John Bonham / John Paul Jones /
+												Jimmy Page / Robert Plant
+											</td>
+											<td>4:14</td>
 										</tr>
-										<tr>
+										<tr
+											onClick={() =>
+												window.open(
+													"https://youtu.be/fSM9zc3SsuM"
+												)
+											}>
 											<th scope="row">5</th>
 											<td>Living Loving Maid</td>
-											<td>Page Plant</td>
-											<td>3:08</td>
+											<td>Jimmy Page / Robert Plant</td>
+											<td>2:39</td>
 										</tr>
-										<tr>
+										<tr
+											onClick={() =>
+												window.open(
+													"https://youtu.be/_h9MxNn8P7w"
+												)
+											}>
 											<th scope="row">6</th>
 											<td>Ramble On</td>
-											<td>Page Plant</td>
-											<td>4:43</td>
+											<td>Jimmy Page / Robert Plant</td>
+											<td>4:24</td>
 										</tr>
-										<tr>
+										<tr
+											onClick={() =>
+												window.open(
+													"https://youtu.be/AwIPiw4_Ba8"
+												)
+											}>
 											<th scope="row">7</th>
 											<td>Moby Dick</td>
-											<td>Bonham Jones Page</td>
-											<td>1:37</td>
+											<td>
+												John Bonham / John Paul Jones /
+												Jimmy Page
+											</td>
+											<td>4:20</td>
 										</tr>
-										<tr>
+										<tr
+											onClick={() =>
+												window.open(
+													"https://youtu.be/u3l0N_ZNtwY"
+												)
+											}>
 											<th scope="row">8</th>
 											<td>La la</td>
-											<td>Page Jones</td>
-											<td>4:07</td>
+											<td>
+												John Bonham / John Paul Jones /
+												Jimmy Page
+											</td>
+											<td>4:10</td>
 										</tr>
 									</tbody>
 								</table>

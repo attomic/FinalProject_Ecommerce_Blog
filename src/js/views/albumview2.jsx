@@ -62,55 +62,106 @@ export class Albumview2 extends React.Component {
 										</tr>
 									</thead>
 									<tbody>
-										<tr>
+										<tr
+											onClick={() =>
+												window.open(
+													"https://youtu.be/XIiu0JI3I5g"
+												)
+											}>
 											<th scope="row">1</th>
-											<td>Whole Lotta Love</td>
-											<td>John Bonham Willie Dixon</td>
-											<td>5:38</td>
-										</tr>
-										<tr>
-											<th scope="row">2</th>
+											<td>Black Dog</td>
 											<td>
-												What Is and What Should Never Be
+												John Paul Jones / Jimmy Page /
+												Robert Plant
 											</td>
-											<td>PagePlant</td>
-											<td>4:33</td>
+											<td>4:57</td>
 										</tr>
-										<tr>
+										<tr
+											onClick={() =>
+												window.open(
+													"https://youtu.be/SRQ7-eSGBWc"
+												)
+											}>
+											<th scope="row">2</th>
+											<td>Rock and Roll</td>
+											<td>
+												John Bonham / John Paul Jones /
+												Jimmy Page / Robert Plant
+											</td>
+											<td>3:40</td>
+										</tr>
+										<tr
+											onClick={() =>
+												window.open(
+													"https://youtu.be/88b0OYxdtyM"
+												)
+											}>
 											<th scope="row">3</th>
-											<td>Thank You</td>
-											<td>PagePlant</td>
-											<td>4:21</td>
+											<td>The Battle of Evermore</td>
+											<td>Jimmy Page / Robert Plant</td>
+											<td>5:52</td>
 										</tr>
-										<tr>
+										<tr
+											onClick={() =>
+												window.open(
+													"https://youtu.be/iXQUu5Dti4g"
+												)
+											}>
 											<th scope="row">4</th>
-											<td>Heartbreaker</td>
-											<td>Bonham Jones Page Plant</td>
-											<td>4:21</td>
+											<td>Stairway to Heavan</td>
+											<td>Jimmy Page / Robert Plantt</td>
+											<td>8:02</td>
 										</tr>
-										<tr>
+										<tr
+											onClick={() =>
+												window.open(
+													"https://youtu.be/n6fBQRaygeo"
+												)
+											}>
 											<th scope="row">5</th>
-											<td>Living Loving Maid</td>
-											<td>Page Plant</td>
-											<td>3:08</td>
+											<td>Misty Mountain Hop</td>
+											<td>
+												John Paul Jones / Jimmy Page /
+												Robert Plant
+											</td>
+											<td>4:38</td>
 										</tr>
-										<tr>
+										<tr
+											onClick={() =>
+												window.open(
+													"https://youtu.be/iJp27QMR2KU"
+												)
+											}>
 											<th scope="row">6</th>
-											<td>Ramble On</td>
-											<td>Page Plant</td>
-											<td>4:43</td>
+											<td>Four Sticks</td>
+											<td>Jimmy Page / Robert Plant</td>
+											<td>4:45</td>
 										</tr>
-										<tr>
+										<tr
+											onClick={() =>
+												window.open(
+													"https://youtu.be/PDIz4talyQk"
+												)
+											}>
 											<th scope="row">7</th>
-											<td>Moby Dick</td>
-											<td>Bonham Jones Page</td>
-											<td>1:37</td>
+											<td>Going to California</td>
+											<td>Jimmy Page / Robert Plant</td>
+											<td>3:31</td>
 										</tr>
-										<tr>
+										<tr
+											onClick={() =>
+												window.open(
+													"https://youtu.be/FFDYuO53BUk"
+												)
+											}>
 											<th scope="row">8</th>
-											<td>La la</td>
-											<td>Page Jones</td>
-											<td>4:07</td>
+											<td>When the Levee Breaks</td>
+											<td>
+												John Bonham / John Paul Jones /
+												Memphis Minnie / Jimmy Page /
+												Robert Plant
+											</td>
+											<td>7:08</td>
 										</tr>
 									</tbody>
 								</table>
