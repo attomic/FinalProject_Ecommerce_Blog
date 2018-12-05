@@ -14,7 +14,7 @@ export class Albumview2 extends React.Component {
 				<div className="col-10 float-right">
 					<div id="page-content-wrapper">
 						<div className="row">
-							<div className="col-5 d-inline pr-1">
+							<div className="col-4 d-inline pr-1">
 								<Context.Consumer>
 									{({ store }) => {
 										return (
@@ -51,7 +51,7 @@ export class Albumview2 extends React.Component {
 									}}
 								</Context.Consumer>
 							</div>
-							<div className="col-6 d-inline">
+							<div className="col-7 d-inline">
 								<table className="table pl-0 responsive">
 									<thead>
 										<tr>

@@ -26,6 +26,7 @@ export class Home extends React.Component {
 				<div id="page-content-wrapper">
 					<div className="container-fluid">
 						<div className="jumbotron" />
+						<br />
 						<h1>
 							Most Influential Led Zeppelin Albums Of All Time
 						</h1>
