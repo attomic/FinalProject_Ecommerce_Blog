@@ -11,10 +11,10 @@ export class Albumview1 extends React.Component {
 	render() {
 		return (
 			<div>
-				<div className="col-8 float-right">
+				<div className="col-10 float-right">
 					<div id="page-content-wrapper">
 						<div className="row">
-							<div className="col-6 d-inline pr-1">
+							<div className="col-5 d-inline pr-1">
 								<Context.Consumer>
 									{({ store }) => {
 										return (
@@ -60,15 +60,11 @@ export class Albumview1 extends React.Component {
 											<th scope="col">Title</th>
 											<th scope="col">Writer(s)</th>
 											<th scope="col">Length</th>
+											<th scope="col"> Play </th>
 										</tr>
 									</thead>
 									<tbody>
-										<tr
-											onClick={() =>
-												window.open(
-													"https://youtu.be/HQmmM_qwG4k"
-												)
-											}>
+										<tr>
 											<th scope="row">1</th>
 											<td>Whole Lotta Love</td>
 											<td>
@@ -77,38 +73,59 @@ export class Albumview1 extends React.Component {
 												Robert Plant
 											</td>
 											<td>5:35</td>
+											<td>
+												<button
+													type="button"
+													className="btn btn-danger btn-sm mt-4"
+													onClick={() =>
+														window.open(
+															"https://youtu.be/HQmmM_qwG4k"
+														)
+													}>
+													▶️ Listen
+												</button>
+											</td>
 										</tr>
 
-										<tr
-											onClick={() =>
-												window.open(
-													"https://youtu.be/WnMiXsRtsfc"
-												)
-											}>
+										<tr>
 											<th scope="row">2</th>
 											<td>
 												What Is and What Should Never Be
 											</td>
 											<td>Jimmy Page / Robert Plant</td>
 											<td>4:45</td>
+											<td>
+												<button
+													type="button"
+													className="btn btn-danger btn-sm mt-2"
+													onClick={() =>
+														window.open(
+															"https://youtu.be/WnMiXsRtsfc"
+														)
+													}>
+													▶️ Listen
+												</button>
+											</td>
 										</tr>
-										<tr
-											onClick={() =>
-												window.open(
-													"https://youtu.be/je4jmKLTC48"
-												)
-											}>
+										<tr>
 											<th scope="row">3</th>
 											<td>Thank You</td>
 											<td>Jimmy Page / Robert Plant</td>
 											<td>4:49</td>
+											<td>
+												<button
+													type="button"
+													className="btn btn-danger btn-sm mt-2"
+													onClick={() =>
+														window.open(
+															"https://youtu.be/je4jmKLTC48"
+														)
+													}>
+													▶️ Listen
+												</button>
+											</td>
 										</tr>
-										<tr
-											onClick={() =>
-												window.open(
-													"https://youtu.be/0hdQi2_HzAc"
-												)
-											}>
+										<tr>
 											<th scope="row">4</th>
 											<td>Heartbreaker</td>
 											<td>
@@ -116,35 +133,56 @@ export class Albumview1 extends React.Component {
 												Jimmy Page / Robert Plant
 											</td>
 											<td>4:14</td>
+											<td>
+												<button
+													type="button"
+													className="btn btn-danger btn-sm mt-2"
+													onClick={() =>
+														window.open(
+															"https://youtu.be/0hdQi2_HzAc"
+														)
+													}>
+													▶️ Listen
+												</button>
+											</td>
 										</tr>
-										<tr
-											onClick={() =>
-												window.open(
-													"https://youtu.be/fSM9zc3SsuM"
-												)
-											}>
+										<tr>
 											<th scope="row">5</th>
 											<td>Living Loving Maid</td>
 											<td>Jimmy Page / Robert Plant</td>
 											<td>2:39</td>
+											<td>
+												<button
+													type="button"
+													className="btn btn-danger btn-sm mt-2"
+													onClick={() =>
+														window.open(
+															"https://youtu.be/fSM9zc3SsuM"
+														)
+													}>
+													▶️ Listen
+												</button>
+											</td>
 										</tr>
-										<tr
-											onClick={() =>
-												window.open(
-													"https://youtu.be/_h9MxNn8P7w"
-												)
-											}>
+										<tr>
 											<th scope="row">6</th>
 											<td>Ramble On</td>
 											<td>Jimmy Page / Robert Plant</td>
 											<td>4:24</td>
+											<td>
+												<button
+													type="button"
+													className="btn btn-danger btn-sm mt-2"
+													onClick={() =>
+														window.open(
+															"https://youtu.be/_h9MxNn8P7w"
+														)
+													}>
+													▶️ Listen
+												</button>
+											</td>
 										</tr>
-										<tr
-											onClick={() =>
-												window.open(
-													"https://youtu.be/AwIPiw4_Ba8"
-												)
-											}>
+										<tr>
 											<th scope="row">7</th>
 											<td>Moby Dick</td>
 											<td>
@@ -152,13 +190,20 @@ export class Albumview1 extends React.Component {
 												Jimmy Page
 											</td>
 											<td>4:20</td>
+											<td>
+												<button
+													type="button"
+													className="btn btn-danger btn-sm mt-2"
+													onClick={() =>
+														window.open(
+															"https://youtu.be/AwIPiw4_Ba8"
+														)
+													}>
+													▶️ Listen
+												</button>
+											</td>
 										</tr>
-										<tr
-											onClick={() =>
-												window.open(
-													"https://youtu.be/u3l0N_ZNtwY"
-												)
-											}>
+										<tr>
 											<th scope="row">8</th>
 											<td>La la</td>
 											<td>
@@ -166,6 +211,18 @@ export class Albumview1 extends React.Component {
 												Jimmy Page
 											</td>
 											<td>4:10</td>
+											<td>
+												<button
+													type="button"
+													className="btn btn-danger btn-sm mt-2"
+													onClick={() =>
+														window.open(
+															"https://youtu.be/u3l0N_ZNtwY"
+														)
+													}>
+													▶️ Listen
+												</button>
+											</td>
 										</tr>
 									</tbody>
 								</table>

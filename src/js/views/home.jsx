@@ -22,9 +22,10 @@ export class Home extends React.Component {
 		// };
 
 		return (
-			<div className="col-8 float-right">
+			<div className="col-10 float-right">
 				<div id="page-content-wrapper">
 					<div className="container-fluid">
+						<div className="jumbotron" />
 						<h1>
 							Most Influential Led Zeppelin Albums Of All Time
 						</h1>
@@ -101,6 +102,7 @@ export class Home extends React.Component {
 						</Link>
 					</div>
 				</div>
+				<br />
 			</div>
 
 			// <div>

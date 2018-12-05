@@ -20,8 +20,8 @@ export class Navbar extends React.Component {
 			<div id="wrapper bg-dark ">
 				<div className="row">
 					<div className="col-4">
-						<div className="sidebar-wrapper bg-dark">
-							<ul className="sidebar-nav pt-5 ">
+						<div className="sidebar-wrapper bg-dark col-2">
+							<ul className="sidebar-nav pt-0 ">
 								<div className="clearfix">
 									<li className="nav-item">
 										<NavLink className="nav-link" to="/">

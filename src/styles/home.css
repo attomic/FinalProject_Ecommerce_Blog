@@ -3,6 +3,12 @@ h1 {
     padding-bottom: 0px;
  }
  
+.jumbotron{
+    background-image: url("http://therockrevival.com/wp-content/uploads/2014/03/Led-Zeppelin-Banner-1024x341.jpg");
+    height: 341px; width: 1054px;
+    
+}
+ 
 /*.card {*/
 /*    width: 700px;*/
 /*    height: 150px;*/
